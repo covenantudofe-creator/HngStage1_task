@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, Edit3, Film, Plus, Trash2, X } from 'lucide-react';
 import './styles.css';
 
-const API = 'http://127.0.0.1:8000/api';
+const API = 'https://hngstage1-task.onrender.com/api';
 const pad = (n) => String(n).padStart(2, '0');
 const toISO = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 const today = new Date();
